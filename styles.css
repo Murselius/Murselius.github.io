@@ -42,7 +42,7 @@ body {
 .toggle-btn {
     position: fixed;
     top: 50%;
-    left: 0; /* Default: outside menu */
+    left: 10px; /* Default: outside menu */
     transform: translateY(-50%);
     background: #333;
     color: white;
@@ -60,6 +60,6 @@ body {
 
 /* Move button to the right edge of menu when open */
 .menu-open + .toggle-btn {
-    left: 250px;
+    left: 260px;
     transform: translateY(-50%) rotate(180deg);
 }
