@@ -8,7 +8,7 @@ body {
 .menu {
     position: fixed;
     top: 0;
-    left: -250px; /* Hidden initially */
+    left: -250px; /* Piilotettu aluksi */
     width: 250px;
     height: 100%;
     background: #333;
@@ -20,7 +20,7 @@ body {
 .menu ul {
     list-style: none;
     padding: 0;
-    margin: 50px 0 0 0; /* Space for button */
+    margin: 0;
 }
 
 .menu ul li {
@@ -38,11 +38,21 @@ body {
     background: #444;
 }
 
-/* Button always visible at start */
-.toggle-btn {
+#close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.open-btn {
     position: fixed;
     top: 50%;
-    left: 10px; /* Default: outside menu */
+    left: 0;
     transform: translateY(-50%);
     background: #333;
     color: white;
@@ -50,16 +60,5 @@ body {
     padding: 10px;
     font-size: 20px;
     cursor: pointer;
-    transition: left 0.3s ease-in-out, transform 0.3s ease-in-out;
-}
-
-/* Open menu */
-.menu-open {
-    left: 0;
-}
-
-/* Move button to the right edge of menu when open */
-.menu-open + .toggle-btn {
-    left: 260px;
-    transform: translateY(-50%) rotate(180deg);
+    transition: left 0.3s ease-in-out;
 }

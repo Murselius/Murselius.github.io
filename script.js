@@ -1,18 +1,15 @@
 document.addEventListener("DOMContentLoaded", function() {
     const menu = document.getElementById("menu");
-    const toggleBtn = document.getElementById("toggle-btn");
+    const openBtn = document.getElementById("open-btn");
+    const closeBtn = document.getElementById("close-btn");
 
-    toggleBtn.addEventListener("click", function() {
-        // Toggle menu open class
-        menu.classList.toggle("menu-open");
+    openBtn.addEventListener("click", function() {
+        menu.style.left = "0";
+        openBtn.style.left = "250px";
+    });
 
-        // Move button when menu opens or closes
-        if (menu.classList.contains("menu-open")) {
-            toggleBtn.style.left = "260px"; // Move to menu's right edge
-            toggleBtn.innerHTML = "&larr;"; // Change arrow to left
-        } else {
-            toggleBtn.style.left = "10px"; // Move back to screen edge
-            toggleBtn.innerHTML = "&rarr;"; // Change arrow to right
-        }
+    closeBtn.addEventListener("click", function() {
+        menu.style.left = "-250px";
+        openBtn.style.left = "0";
     });
 });
