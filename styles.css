@@ -58,7 +58,7 @@
     display: block;
 }
 
-.clicked {
+menu ul li a :active {
     background-color: #0B4F6C;
 }
 
