@@ -5,10 +5,10 @@ document.addEventListener("DOMContentLoaded", function() {
     var isOpen = false;
 
     openBtn.addEventListener("click", function() {
-        if (isOpen==False) {
+        if (isOpen==false) {
             menu.style.left = "0";
             openBtn.style.left = "250px";
-            isOpen = true
+            isOpen = true;
         }
         else {
             menu.style.left = "-250px";
