@@ -11,8 +11,8 @@ body {
     left: -250px; /* Piilotettu aluksi */
     width: 250px;
     height: 100%;
-    background: #333;
-    color: white;
+    background: #B80C09;
+    color: #FBFBFF;
     padding-top: 20px;
     transition: left 0.3s ease-in-out;
 }
@@ -29,13 +29,14 @@ body {
 }
 
 .menu ul li a {
-    color: white;
+    color: #FBFBFF;
+    background-color: #01BAEF;
     text-decoration: none;
     display: block;
 }
 
 .menu ul li a:hover {
-    background: #444;
+    background: #B80C09;
 }
 
 #close-btn {
@@ -44,7 +45,7 @@ body {
     right: 10px;
     background: none;
     border: none;
-    color: white;
+    color: #FBFBFF;
     font-size: 20px;
     cursor: pointer;
 }
@@ -53,11 +54,11 @@ body {
     position: fixed;
     top: 50%;
     left: 0;
-    transform: translateY(-50%);
-    background: #333;
-    color: white;
+    transform: translateX(-50%);
+    background: #B80C09;
+    color: #FBFBFF;
     border: none;
-    padding: 10px;
+    padding: 0px;
     font-size: 20px;
     cursor: pointer;
     transition: left 0.3s ease-in-out;
