@@ -47,7 +47,8 @@ body {
     background: #B80C09;
     color: #FBFBFF;
     border: none;
-    padding: 0px;
+    width: 40px;
+    height: 40px;
     font-size: 20px;
     cursor: pointer;
     transition: left 0.3s ease-in-out, transform 0.3s ease-in-out;
