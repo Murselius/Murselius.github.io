@@ -58,6 +58,10 @@
     display: block;
 }
 
+menu ul li a:active {
+    background-color: #0B4F6C;
+}
+
 .menu ul li a:hover {
     background: #B80C09;
 }
