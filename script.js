@@ -1,15 +1,12 @@
 document.addEventListener("DOMContentLoaded", function() {
     const menu = document.getElementById("menu");
-    const openBtn = document.getElementById("open-btn");
-    const closeBtn = document.getElementById("close-btn");
+    const toggleBtn = document.getElementById("open-close-btn");
 
-    openBtn.addEventListener("click", function() {
-        menu.style.left = "0";
-        openBtn.classList.add("menu-open");
-    });
-
-    closeBtn.addEventListener("click", function() {
-        menu.style.left = "-250px";
-        openBtn.classList.remove("menu-open");
+    toggleBtn.addEventListener("click", function() {
+        if (menu.classList.contains("menu-open")) {
+            menu.classList.remove("menu-open");
+        } else {
+            menu.classList.add("menu-open");
+        }
     });
 });

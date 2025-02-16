@@ -64,7 +64,11 @@ body {
 }
 
 .menu-open {
-    left: 250px; /* Moves button to the right edge of the menu */
-    transform: translateY(-50%) rotate(180deg); /* Rotates the arrow */
+    left: 0;
+}
+
+.menu-open .toggle-btn {
+    right: 10px; /* Move inside */
+    transform: rotate(180deg); /* Reverse arrow */
 }
 
