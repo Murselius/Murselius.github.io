@@ -42,7 +42,7 @@ body {
 .open-btn {
     position: fixed;
     top: 50%;
-    left: 10px;
+    left: 0;
     transform: translateX(-50%);
     background: #B80C09;
     color: #FBFBFF;
@@ -50,5 +50,5 @@ body {
     padding: 0px;
     font-size: 20px;
     cursor: pointer;
-    transition: left 0.3s ease-in-out;
+    transition: left 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
