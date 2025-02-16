@@ -1,8 +1,31 @@
+h1 {
+    font-size: large;
+}
+
+.white {
+    color: #FBFBFF;
+}
+
+
+h2 {
+    background-color: #01BAEF;
+    font-size: medium;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+p {
+    background-color: #0B4F6C;
+    font-size: small;
+    margin-top: 0px;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    background-color: #040F16;
 }
 
 .menu {
