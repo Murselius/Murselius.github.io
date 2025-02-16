@@ -61,9 +61,10 @@ body {
     font-size: 20px;
     cursor: pointer;
     transition: left 0.3s ease-in-out;
-
-    .menu-open {
-        left: 250px; /* Moves button to the right edge of the menu */
-        transform: translateY(-50%) rotate(180deg); /* Rotates the arrow */
-    }
 }
+
+.menu-open {
+    left: 250px; /* Moves button to the right edge of the menu */
+    transform: translateY(-50%) rotate(180deg); /* Rotates the arrow */
+}
+
