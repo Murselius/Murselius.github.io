@@ -6,10 +6,12 @@ document.addEventListener("DOMContentLoaded", function() {
     openBtn.addEventListener("click", function() {
         menu.style.left = "0";
         openBtn.style.left = "250px";
+        openBtn.hidden = true;
     });
 
     closeBtn.addEventListener("click", function() {
         menu.style.left = "-250px";
         openBtn.style.left = "0";
+        openbutton.hidden = false;
     });
 });
