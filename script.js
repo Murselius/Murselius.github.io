@@ -6,11 +6,11 @@ document.addEventListener("DOMContentLoaded", function() {
     openBtn.addEventListener("click", function() {
         if (!isOpen) {
             menu.style.left = "0";
-            openBtn.style.left = "250px"; // Move button with menu
+            openBtn.style.left = "270px"; // Move button with menu
             openBtn.innerHTML = "&larr;"; // Change arrow to left
         } else {
             menu.style.left = "-250px";
-            openBtn.style.left = "0"; // Move button back
+            openBtn.style.left = "20px"; // Move button back
             openBtn.innerHTML = "&rarr;"; // Change arrow to right
         }
         isOpen = !isOpen; // Toggle state
