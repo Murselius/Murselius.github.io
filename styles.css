@@ -1,4 +1,4 @@
-h1 {
+.h1 {
     font-size: large;
 }
 
@@ -7,20 +7,20 @@ h1 {
 }
 
 
-h2 {
+.h2 {
     background-color: #01BAEF;
     font-size: medium;
     text-align: center;
     margin-bottom: 0px;
 }
 
-p {
+.p {
     background-color: #0B4F6C;
     font-size: small;
     margin-top: 0px;
 }
 
-body {
+.body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
