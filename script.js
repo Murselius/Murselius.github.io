@@ -5,13 +5,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
     openBtn.addEventListener("click", function() {
         menu.style.left = "0";
-        openBtn.style.left = "250px";
-        openBtn.hidden = true;
+        openBtn.classList.add("menu-open");
     });
 
     closeBtn.addEventListener("click", function() {
         menu.style.left = "-250px";
-        openBtn.style.left = "0";
-        openbutton.hidden = false;
+        openBtn.classList.remove("menu-open");
     });
 });
