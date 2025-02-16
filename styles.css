@@ -29,9 +29,9 @@
 }
 
 .centered {
-    align-self: center;
-    margin: 20em;
-    align-content: center;
+    left: 25%;
+    right: 25%;
+    text-align: center;
 }
 
 
