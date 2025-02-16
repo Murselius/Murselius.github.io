@@ -28,6 +28,13 @@
     background-color: #040F16;
 }
 
+.centered {
+    align-self: center;
+    margin: 20em;
+    align-content: center;
+}
+
+
 .menu {
     position: fixed;
     top: 0;
