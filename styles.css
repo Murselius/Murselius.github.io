@@ -28,12 +28,6 @@
     background-color: #040F16;
 }
 
-.centered {
-    left: 25%;
-    right: 25%;
-    text-align: center;
-}
-
 
 .menu {
     position: fixed;
