@@ -30,7 +30,7 @@
 
 .centered_image {
     align-self: center;
-    padding:2em;
+    width: 100%;
 }
 
 .menu {
