@@ -28,6 +28,10 @@
     background-color: #040F16;
 }
 
+.centered_image {
+    align-self: center;
+    padding:2em;
+}
 
 .menu {
     position: fixed;
