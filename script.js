@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     const menu = document.getElementById("menu");
     const openBtn = document.getElementById("open-btn");
-    const closeBtn = document.getElementById("close-btn");
     var isOpen = false;
 
     openBtn.addEventListener("click", function() {
