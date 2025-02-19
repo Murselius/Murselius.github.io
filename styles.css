@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Allen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700&display=swap');
 
 .h1 {
     font-size: clamp(24px, 5vw, 48px);
@@ -27,7 +27,7 @@
 }
 
 .body {
-    font-family: 'Allen', sans-serif;
+    font-family: 'Allan', sans-serif;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
