@@ -58,9 +58,6 @@
 
 .rounded {
     border-radius: 15px;
-    border: 2px solid #ccc;
-    max-width: 100%; /* Responsive width */
-    height: auto; /* Maintain aspect ratio */
 }
 
 .menu {
