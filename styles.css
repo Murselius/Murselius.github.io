@@ -28,11 +28,6 @@
     background-color: #040F16;
 }
 
-.centered-image {
-    width: 100vw;
-    bottom: 0;
-}
-
 .menu {
     position: fixed;
     top: 0;
