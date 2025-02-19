@@ -26,7 +26,7 @@
     font-size: clamp(16px, 2vw, 24px);
     text-align: center;
     margin: 0;
-    padding: 0;
+    padding: 0px, 5px;
     border-radius: 0px 0px 10px 10px; /* Smooth rounded edges */
 }
 
