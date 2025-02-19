@@ -56,18 +56,8 @@
     align-self: center;
 }
 
-.body, img {
-    margin: 0;
-    padding: 0;
-}
-
 .rounded {
-    border: 2px solid #ccc; /* Add border */
     border-radius: 15px; /* Rounded corners */
-    max-width: 100%; /* Responsive width */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Ensures no extra space under the image */
-    box-sizing: border-box; /* Include border in element's total width/height */
 }
 
 
