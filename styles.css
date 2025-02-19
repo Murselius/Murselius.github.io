@@ -111,7 +111,7 @@
 
 .container {
     display: flex; /* Enable Flexbox */
-    align-items: center; /* Center items vertically */
+    align-items: top;
     justify-content: center; /* Center items horizontally */
     padding: 20px;
 }
