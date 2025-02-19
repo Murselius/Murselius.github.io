@@ -136,6 +136,6 @@
     .image, .content {
         max-width: 100%; /* Full width on smaller screens */
         margin-right: 0; /* Remove right margin */
-        margin-bottom: 20px; /* Space baetween stacked elements */
+        margin-bottom: 20px; /* Space between stacked elements */
     }
 }
