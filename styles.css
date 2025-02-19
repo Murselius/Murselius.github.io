@@ -47,9 +47,13 @@
     box-sizing: border-box;
 }
 
-.centered-image {
+.filled {
     width: 100vw;
     margin-bottom: 0;
+}
+
+.centered {
+    align-self: center;
 }
 
 .menu {
