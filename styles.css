@@ -40,7 +40,7 @@
 }
 
 .box {
-    width: 75%;
+    width: 100%;
     padding: 1vw 12.5%; /* Adjust padding for top/bottom and sides */
     margin: 1vw auto; /* Adjust margins as needed */
     border-radius: 10px; /* Smooth rounded edges */
