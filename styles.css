@@ -41,7 +41,7 @@
 
 .box {
     width: 100%;
-    padding: 1vw 10%; /* Adjust padding for top/bottom and sides */
+    padding: 1vw 5%; /* Adjust padding for top/bottom and sides */
     margin: 1vw auto; /* Adjust margins as needed */
 
     box-sizing: border-box;
