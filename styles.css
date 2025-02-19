@@ -33,6 +33,7 @@
 }
 
 .box {
+    width: 75%;
     padding: 20px 12.5%; /* Adjust padding for top/bottom and sides */
     margin: 25px auto; /* Adjust margins as needed */
     border-radius: 10px; /* Smooth rounded edges */
