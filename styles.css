@@ -129,13 +129,13 @@
 /* Optional: Responsive styles for smaller screens */
 @media (max-width: 768px) {
     .container {
-        flex-direction: column; /* Stack vertically on smaller screens */
+        flex-direction: column-reverse; /* Stack vertically on smaller screens */
         align-items: flex-start; /* Align items to the start */
     }
 
     .image, .content {
         max-width: 100%; /* Full width on smaller screens */
         margin-right: 0; /* Remove right margin */
-        margin-bottom: 20px; /* Space between stacked elements */
+        margin-bottom: 20px; /* Space baetween stacked elements */
     }
 }
