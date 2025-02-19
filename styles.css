@@ -1,22 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Allen:wght@400;700&display=swap');
+
 .h1 {
-    font-size: large;
+    font-size: clamp(24px, 5vw, 48px);
+    font-family: 'Allen', sans-serif;
 }
 
 .white {
     color: #FBFBFF;
 }
 
+.bold {
+    font-weight: 700;
+}
+
 
 .h2 {
+    font-family: 'Allen', sans-serif;
     background-color: #01BAEF;
-    font-size: medium;
+    font-size: clamp(20px, 4vw, 36px);
     text-align: center;
     margin-bottom: 0px;
 }
 
 .p {
+    font-family: 'Allen', sans-serif;
     background-color: #0B4F6C;
-    font-size: small;
+    font-size: clamp(16px, 2vw, 20px);
     margin-top: 0px;
 }
 
