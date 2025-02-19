@@ -34,7 +34,8 @@
 }
 
 .box {
-    padding: 20px 12.5% 20px 12.5%;
+    padding: 20px 12.5%; /* Adjust padding for top/bottom and sides */
+    margin: 0 25% 25% 0; /* Adjust margins as needed */
     border-radius: 10px; /* Smooth rounded edges */
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Floating effect */
 }
