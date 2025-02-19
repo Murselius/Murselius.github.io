@@ -21,7 +21,12 @@
 <button id="open-btn" class="open-btn">&rarr;</button>
 
 
-<img class="centered-image" src="momentum logo small.png" alt="momentum logo"></img>
+<picture class="centered-image">
+    <source srcset="momentum logo large.jpg" media="(min-width: 1025px)">
+    <source srcset="momentum logo medium.jpg" media="(min-width: 481px)">
+    <source srcset="momentum logo small.jpg" media="(max-width: 480px)">
+    <img src="momentum logo small.png" alt="Momentum Logo">
+</picture>
 <div>
 <h2 class="h2 white">Description</h2>
 <p class="p white">An electrifying two-player living card game that thrusts you into fierce martial combat!
