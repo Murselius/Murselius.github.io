@@ -116,7 +116,7 @@
     top: 50%;
     left: 20px;
     transform: translateX(-50%);
-    background: #B80C09;
+    background-color: #B80C09;
     background-image: url(nuoli_oikea.png);
     background-size: contain; /* Ensure image fits inside button */
     background-repeat: no-repeat; /* Prevent tiling */
