@@ -118,6 +118,9 @@
     transform: translateX(-50%);
     background: #B80C09;
     background-image: url(nuoli_oikea.png);
+    background-size: contain; /* Ensure image fits inside button */
+    background-repeat: no-repeat; /* Prevent tiling */
+    background-position: center; /* Center the image */
     color: #FBFBFF;
     border: none;
     width: 40px;
