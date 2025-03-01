@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
         } else {
             menu.style.left = "-250px";
             openBtn.style.left = "20px"; // Move button back
-            openBtn.style.transform = "rotate(180deg)"; // Change arrow to right
+            openBtn.style.transform = "rotate(0deg)"; // Change arrow to right
         }
         isOpen = !isOpen; // Toggle state
     });
