@@ -7,7 +7,13 @@
 }
 
 .h1 {
+    width: 100%;
+    background-color: #B80C09;
     font-size: clamp(24px, 5vw, 52px);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px 10px 0px 0px; /* Smooth rounded edges */
 }
 
 .h2 {
