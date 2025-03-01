@@ -7,11 +7,11 @@ document.addEventListener("DOMContentLoaded", function() {
         if (!isOpen) {
             menu.style.left = "0";
             openBtn.style.left = "270px"; // Move button with menu
-            openBtn.style.transform = "rotate(180deg)"; // Change arrow to left
+            openBtn.innerHTML = "&larr;"; // Change arrow to left
         } else {
             menu.style.left = "-250px";
             openBtn.style.left = "20px"; // Move button back
-            openBtn.style.transform = "rotate(0deg)"; // Change arrow to right
+            openBtn.innerHTML = "&rarr;"; // Change arrow to right
         }
         isOpen = !isOpen; // Toggle state
     });
