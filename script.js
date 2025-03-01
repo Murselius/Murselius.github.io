@@ -7,11 +7,11 @@ document.addEventListener("DOMContentLoaded", function() {
         if (!isOpen) {
             menu.style.left = "0";
             openBtn.style.left = "270px"; // Move button with menu
-            openBtn.style.backgroundImage = url(nuoli_vasen.png); // Change arrow to left
+            openBtn.style.transform = "rotate(180deg)"; // Change arrow to left
         } else {
             menu.style.left = "-250px";
             openBtn.style.left = "20px"; // Move button back
-            openBtn.style.backgroundImage = url(nuoli_oikea.png); // Change arrow to right
+            openBtn.style.transform = "rotate(180deg)"; // Change arrow to right
         }
         isOpen = !isOpen; // Toggle state
     });
