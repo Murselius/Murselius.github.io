@@ -26,7 +26,7 @@
     border-radius: 10px 10px 0px 0px; /* Smooth rounded edges */
 }
 
-.h1 {
+.h3 {
     width: 100%;
     font-size: clamp(16px, 2vw, 24px);
     text-align: center;
