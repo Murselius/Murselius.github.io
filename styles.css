@@ -133,6 +133,13 @@
     padding: 20px;
 }
 
+.container2 {
+    display: flex; /* Enable Flexbox */
+    align-items: top;
+    justify-content: center; /* Center items horizontally */
+    padding: 20px;
+}
+
 .image {
     max-width: 50%; /* Adjust image size as needed */
     margin-right: 20px; /* Space between image and div */
@@ -149,6 +156,11 @@
         align-items: flex-start; /* Align items to the start */
     }
 
+    .container2 {
+        flex-direction: column; /* Stack vertically on smaller screens */
+        align-items: flex-start; /* Align items to the start */
+    }
+    
     .image, .content {
         max-width: 100%; /* Full width on smaller screens */
         margin-right: 0; /* Remove right margin */
