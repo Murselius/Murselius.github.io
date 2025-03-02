@@ -124,6 +124,7 @@
     font-size: 20px;
     cursor: pointer;
     transition: left 0.3s ease-in-out, transform 0.3s ease-in-out;
+    z-index: 1;
 }
 
 .container {
