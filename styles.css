@@ -86,6 +86,7 @@
     color: #FBFBFF;
     padding-top: 20px;
     transition: left 0.3s ease-in-out;
+    z-index: 3;
 }
 
 .menu ul {
@@ -124,7 +125,7 @@
     font-size: 20px;
     cursor: pointer;
     transition: left 0.3s ease-in-out, transform 0.3s ease-in-out;
-    z-index: 3;
+    z-index: 4;
 }
 
 .container {
@@ -162,6 +163,10 @@
 }
 
 .container2:hover ~ .overlay {
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+}
+
+.box:hover ~ .overlay {
     background: rgba(0, 0, 0, 0.5); /* Dark overlay */
 }
 
