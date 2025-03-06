@@ -25,6 +25,7 @@
     background-color: #01BAEF;
     font-size: clamp(20px, 4vw, 40px);
     text-align: center;
+    color:#B80C09;
     margin: 0;
     padding: 0;
     border-radius: 10px 10px 0px 0px; /* Smooth rounded edges */
