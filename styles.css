@@ -2,6 +2,10 @@
     color: #FBFBFF;
 }
 
+.red {
+    color: #B80C09;
+}
+
 .bold {
     font-weight: 700;
 }
@@ -18,7 +22,7 @@
 
 .h2 {
     width: 100%;
-    background-color: #B80C09;
+    background-color: #01BAEF;
     font-size: clamp(20px, 4vw, 40px);
     text-align: center;
     margin: 0;
