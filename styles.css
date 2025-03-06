@@ -128,14 +128,12 @@
 
 .container {
     display: flex; /* Enable Flexbox */
-    align-items: top;
     justify-content: center; /* Center items horizontally */
     padding: 20px;
 }
 
 .container2 {
     display: flex; /* Enable Flexbox */
-    align-items: top;
     justify-content: center; /* Center items horizontally */
     padding: 20px;
 }
